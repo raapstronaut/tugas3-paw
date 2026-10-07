@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f5f7;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f2f7f2;
     margin: 0;
     padding: 0;
     color: #333333;
@@ -16,7 +16,7 @@ body {
     border: 1px solid #dddddd;
 }
 
-h1 {text-align: center; color: #1f4e79; margin-top: 0;}
+h1 {text-align: center; color: #2e7d32; margin-top: 0;}
 p {text-align: center; margin-bottom: 25px;}
 form {display: flex; flex-direction: column;}
 
@@ -30,27 +30,29 @@ textarea {
     border: 1px solid #bbbbbb;
     border-radius: 5px;
     font-size: 14px;
+    font-family: inherit;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 select:focus,
-textarea:focus {border: 1px solid #1f4e79;outline: none;}
+textarea:focus {border: 1px solid #2e7d32;outline: none;}
 
 textarea {min-height: 90px; resize: vertical;}
 
 button {
     margin-top: 25px;
     padding: 12px;
-    background-color: #1f4e79;
+    background-color: #2e7d32;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 15px;
+    font-family: inherit;
     cursor: pointer;
 }
 
-button:hover {background-color: #163a5c;}
+button:hover {background-color: #1b5e20;}
 
 table {
     width: 100%;
@@ -66,17 +68,17 @@ td {
     text-align: left;
 }
 
-th {background-color: #1f4e79; color: white;}
-tr:nth-child(even) {background-color: #f2f5f7;}
-tr:hover {background-color: #e3edf5;}
+th {background-color: #2e7d32; color: white;}
+tr:nth-child(even) {background-color: #f2f7f2;}
+tr:hover {background-color: #e3f1e4;}
 
 a {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #1f4e79;
+    background-color: #2e7d32;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
-a:hover {background-color: #163a5c;}
+a:hover {background-color: #1b5e20;}
